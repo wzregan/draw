@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T08:30:45.935Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="yIQPlp6D3xBXxiSxh4zs" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T08:34:36.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6wq4THemMxTIQnKFBfPr" version="22.1.7" type="github">
   <diagram name="第 1 页" id="J4uYZf8pRWPRZiSCUUQ6">
-    <mxGraphModel>
+    <mxGraphModel dx="4293" dy="5372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-1" value="顶层prompt，包含工具，知识点，日志等等。&#xa;（1）角色&#xa;（2）你有下面几个工具可以调用&#xa;（3）你还知道下面一些知识点。  （具备哪些知识点？）&#xa;&#xa;&#xa;选择工具，或者直接回答知识点中的内容。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-630" width="330" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
