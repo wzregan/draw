@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T08:50:51.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wvBo3wdHZ8cCy_xVID9Q" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T10:18:34.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sipHrLlJLooMFrkuSpkw" version="22.1.7" type="github">
   <diagram name="第 1 页" id="J4uYZf8pRWPRZiSCUUQ6">
-    <mxGraphModel dx="4666" dy="5387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4893" dy="5504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xapJVbtJsIF2dAJFyz2N-1" value="顶层prompt，包含工具，知识点，日志等等。&#xa;（1）角色&#xa;（2）你有下面几个工具可以调用&#xa;（3）你还知道下面一些知识点。  （具备哪些知识点？）&#xa;&#xa;&#xa;选择工具，或者直接回答知识点中的内容。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-509.5" y="-650" width="330" height="120" as="geometry" />
+          <mxGeometry x="-630" y="-660" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-2">
           <mxGeometry relative="1" as="geometry">
@@ -15,9 +15,10 @@
         <mxCell id="xapJVbtJsIF2dAJFyz2N-2" value="用户问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-520" y="-470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-6">
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-270" y="-350" as="targetPoint" />
+            <mxPoint x="-270" y="-410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-6" value="顶层prompt尝试回答" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -38,6 +39,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-66" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-9" target="xapJVbtJsIF2dAJFyz2N-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-9" value="回答是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-317" y="-350" width="95" height="70" as="geometry" />
         </mxCell>
@@ -56,7 +60,7 @@
           <mxGeometry y="-345" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-19" value="用户问：你是谁？&#xa;用户问：你能做什么？&#xa;用户问：us有哪日志？&#xa;用户问：wise.log日志中什么比较重要..？&#xa;用户问：你有哪些工具？&#xa;用户问：metrics工具是干什么用的？&#xa;用户问：使用说明？" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="-650" width="250" height="120" as="geometry" />
+          <mxGeometry x="-195.5" y="-660" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-22">
           <mxGeometry relative="1" as="geometry">
@@ -110,7 +114,7 @@
           <mxGeometry x="-195.5" y="-95" width="105.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-42" value="用户问：你是谁？&#xa;用户问：你能做什么？&#xa;用户问：us有哪日志？&#xa;用户问：wise.log日志中什么比较重要..？&#xa;用户问：你有哪些工具？&#xa;用户问：metrics工具是干什么用的？&#xa;用户问：使用说明？" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="20" width="250" height="120" as="geometry" />
+          <mxGeometry x="140" y="360" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-48" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="140" width="120" height="60" as="geometry" />
@@ -135,16 +139,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-62" value="你是xxxxxxxx，你可以使用我们给你的各种工具去解决各种各样的问题，你现在所有的工具列表如下&#xa;&#xa;&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx                  有了这些知识，模型可以回答  ”我能做什么“  ”使用说明“  ”你有哪些工具“ &#xa;&#xa;&#xa;&#xa;&#xa;此外你还掌握了很多业务相关知识，如下：&#xa;(1).....&#xa;(2)....&#xa;(3).....&#xa;.....&#xa;(n)......                      有了这些知识，模型可以回答业务通用尝试知识&#xa;&#xa;&#xa;现在请你回答用户的问题:&#xa;。。。。。。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="350" width="560" height="380" as="geometry" />
+          <mxGeometry x="-680" y="490" width="560" height="380" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-63" value="如果用户问的问题是业务问题，可以直接调用工具回答出来&#xa;&#xa;&#xa;如果用户问的是非业务知识，那么可以将其归类到normal_qa中&#xa;&#xa;&#xa;所以这个顶层的prompt  normal_qa中去解决这个问题" style="text;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="170" width="480" height="150" as="geometry" />
+          <mxGeometry x="-682.75" y="310" width="480" height="150" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-64" value="在大多数情况&lt;br&gt;&lt;br&gt;我们实际上是需要调用classifier的&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="-360" width="260" height="90" as="geometry" />
+          <mxGeometry x="-630" y="-360" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-65" value="弥补了normal_QA的单调性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="140" y="100" width="220" height="30" as="geometry" />
+          <mxGeometry x="160" y="100" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
