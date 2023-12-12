@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T08:47:30.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6WsRLZ5nGx6wjZK114Oa" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T08:50:51.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wvBo3wdHZ8cCy_xVID9Q" version="22.1.7" type="github">
   <diagram name="第 1 页" id="J4uYZf8pRWPRZiSCUUQ6">
-    <mxGraphModel dx="4064" dy="5251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4666" dy="5387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,6 +136,15 @@
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-62" value="你是xxxxxxxx，你可以使用我们给你的各种工具去解决各种各样的问题，你现在所有的工具列表如下&#xa;&#xa;&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx                  有了这些知识，模型可以回答  ”我能做什么“  ”使用说明“  ”你有哪些工具“ &#xa;&#xa;&#xa;&#xa;&#xa;此外你还掌握了很多业务相关知识，如下：&#xa;(1).....&#xa;(2)....&#xa;(3).....&#xa;.....&#xa;(n)......                      有了这些知识，模型可以回答业务通用尝试知识&#xa;&#xa;&#xa;现在请你回答用户的问题:&#xa;。。。。。。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-490" y="350" width="560" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-63" value="如果用户问的问题是业务问题，可以直接调用工具回答出来&#xa;&#xa;&#xa;如果用户问的是非业务知识，那么可以将其归类到normal_qa中&#xa;&#xa;&#xa;所以这个顶层的prompt  normal_qa中去解决这个问题" style="text;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="170" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-64" value="在大多数情况&lt;br&gt;&lt;br&gt;我们实际上是需要调用classifier的&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-360" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-65" value="弥补了normal_QA的单调性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
