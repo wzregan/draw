@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T08:39:47.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i82FFoQitj2nY02GmAxS" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T08:47:30.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6WsRLZ5nGx6wjZK114Oa" version="22.1.7" type="github">
   <diagram name="第 1 页" id="J4uYZf8pRWPRZiSCUUQ6">
-    <mxGraphModel dx="4293" dy="5372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4064" dy="5251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,9 +44,6 @@
         <mxCell id="xapJVbtJsIF2dAJFyz2N-11" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-329.5" y="-240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-12" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="-280" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-315" as="targetPoint" />
@@ -59,7 +56,7 @@
           <mxGeometry y="-345" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-19" value="用户问：你是谁？&#xa;用户问：你能做什么？&#xa;用户问：us有哪日志？&#xa;用户问：wise.log日志中什么比较重要..？&#xa;用户问：你有哪些工具？&#xa;用户问：metrics工具是干什么用的？&#xa;用户问：使用说明？" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="-650" width="250" height="120" as="geometry" />
+          <mxGeometry x="-160" y="-650" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xapJVbtJsIF2dAJFyz2N-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-22">
           <mxGeometry relative="1" as="geometry">
@@ -69,48 +66,76 @@
         <mxCell id="xapJVbtJsIF2dAJFyz2N-22" value="用户问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-24">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-310" y="30" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-24" value="顶层prompt尝试回答" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-24" value="调用classifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-370" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-28">
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-310" y="140" as="targetPoint" />
+            <mxPoint x="-199.5" y="-60" as="targetPoint" />
+            <mxPoint x="-249.5" y="-60" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-28">
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-32" value="normal_QA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-202.75" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-210" y="65" as="targetPoint" />
+            <mxPoint x="40" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-27" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xapJVbtJsIF2dAJFyz2N-26">
-          <mxGeometry x="-0.3905" y="4" relative="1" as="geometry">
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-33" value="指定工具解决问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-37" value="不是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xapJVbtJsIF2dAJFyz2N-35">
+          <mxGeometry x="-0.4327" y="8" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-28" value="回答是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-357" y="30" width="95" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-29" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-369.5" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-30" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="100" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-32">
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-40" y="65" as="targetPoint" />
+            <mxPoint x="-142.75" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-32" value="调用classifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="35" width="120" height="60" as="geometry" />
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xapJVbtJsIF2dAJFyz2N-36">
+          <mxGeometry x="-0.1345" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="xapJVbtJsIF2dAJFyz2N-33" value="指定工具解决问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="35" width="120" height="60" as="geometry" />
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-34" value="normal_QA?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195.5" y="-95" width="105.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-42" value="用户问：你是谁？&#xa;用户问：你能做什么？&#xa;用户问：us有哪日志？&#xa;用户问：wise.log日志中什么比较重要..？&#xa;用户问：你有哪些工具？&#xa;用户问：metrics工具是干什么用的？&#xa;用户问：使用说明？" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="20" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-48" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xapJVbtJsIF2dAJFyz2N-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-61" value="解决失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xapJVbtJsIF2dAJFyz2N-60">
+          <mxGeometry x="-0.2341" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-57" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="30" width="102.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="140" as="targetPoint" />
+            <mxPoint x="39.5" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xapJVbtJsIF2dAJFyz2N-62" value="你是xxxxxxxx，你可以使用我们给你的各种工具去解决各种各样的问题，你现在所有的工具列表如下&#xa;&#xa;&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx&#xa;xxx_tool: xxxxxx                  有了这些知识，模型可以回答  ”我能做什么“  ”使用说明“  ”你有哪些工具“ &#xa;&#xa;&#xa;&#xa;&#xa;此外你还掌握了很多业务相关知识，如下：&#xa;(1).....&#xa;(2)....&#xa;(3).....&#xa;.....&#xa;(n)......                      有了这些知识，模型可以回答业务通用尝试知识&#xa;&#xa;&#xa;现在请你回答用户的问题:&#xa;。。。。。。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="350" width="560" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
